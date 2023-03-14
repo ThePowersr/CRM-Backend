@@ -1,2 +1,3 @@
-/home/rafael/Escritorio/CRMGraphql/variables.env
-/node_modules
+node_modules
+variables.env
+.env
