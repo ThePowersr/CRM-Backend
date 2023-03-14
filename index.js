@@ -12,13 +12,6 @@ conectarDB();
 const server = new ApolloServer({
     typeDefs, 
     resolvers,
-    context: () => {
-        const miContext = "Hola";
-        
-        return {
-            miContext
-        }
-    },
     plugins:[ApolloServerPluginLandingPageGraphQLPlayground()],
 });
 
